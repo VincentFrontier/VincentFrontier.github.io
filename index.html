@@ -6,10 +6,11 @@
     <title>Personal Introduction</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', 'Arial Nova', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Arial Nova, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
             color: #333;
         }
 
@@ -63,14 +64,116 @@
         .center {
             text-align: center;
         }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-buttons a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-buttons a:hover {
+            background-color: #0056b3;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #e0e0e0;
+            }
+
+            .container {
+                background: #1e1e1e;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            }
+
+            .divider {
+                background-color: #333;
+            }
+
+            a {
+                color: #4dabf7;
+            }
+
+            a:hover {
+                color: #82caff;
+            }
+
+            .social-buttons a {
+                background-color: #4dabf7;
+            }
+
+            .social-buttons a:hover {
+                background-color: #82caff;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .profile-img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            ul {
+                margin-left: 1.5rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="center">
             <img src="profile.jpg" alt="Your Photo" class="profile-img">
-            <h1>Your Name</h1>
+            <h1>Vincent Frontier</h1>
             <p>A brief tagline about yourself (e.g., Web Developer, Designer, Creator).</p>
+
+            <div class="social-buttons">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://bsky.app" target="_blank">Bluesky</a>
+            </div>
         </div>
 
         <div class="divider"></div>
@@ -93,7 +196,7 @@
         </ul>
 
         <h2>Contact</h2>
-        <p>Feel free to reach out via email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Feel free to reach out via email: <a href="mailto:vf@vincentfrontier.sbs">vf@vincentfrontier.sbs</a></p>
     </div>
 </body>
 </html>
