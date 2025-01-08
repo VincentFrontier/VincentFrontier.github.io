@@ -1,0 +1,132 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Arial Nova, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: justify;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+p {
+    margin: 0.5rem 0 1rem;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 1.5rem 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.social-buttons {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-buttons a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Slightly enlarges the button */
+.social-buttons a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+
+/* Gives a "press" effect on click */
+.social-buttons a:active {
+transform: scale(0.95); 
+} 
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    .container {
+        background: #1e1e1e;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .divider {
+        background-color: #444;
+    }
+
+    a {
+        color: #64b5f6;
+    }
+
+    a:hover {
+        color: #bbdefb;
+    }
+
+    .social-buttons a {
+        background-color: #64b5f6;
+        color: #121212;
+    }
+
+    .social-buttons a:hover {
+        background-color: #42a5f5;
+    }
+}
