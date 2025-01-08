@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light dark">
-    <title>嗨嗨！</title>
+    <title>境穆的個人頁面</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Arial Nova, sans-serif;
@@ -13,6 +13,7 @@
             padding: 0;
             background-color: #f8f9fa;
             color: #333;
+            text-align: justify;
         }
 
         .container {
@@ -87,136 +88,30 @@
         .social-buttons a:hover {
             background-color: #0056b3;
         }
-
-        .card {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #ccc;
-            padding: 16px;
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin: 1rem 0;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .card-content {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .card-title {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .card-description {
-            font-size: 16px;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #121212;
-                color: #e0e0e0;
-            }
-
-            .container {
-                background: #1e1e1e;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            }
-
-            .divider {
-                background-color: #333;
-            }
-
-            a {
-                color: #4dabf7;
-            }
-
-            a:hover {
-                color: #82caff;
-            }
-
-            .social-buttons a {
-                background-color: #4dabf7;
-            }
-
-            .social-buttons a:hover {
-                background-color: #82caff;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 1rem;
-                padding: 1rem;
-            }
-
-            h1 {
-                font-size: 1.8rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            p {
-                font-size: 1rem;
-            }
-
-            .profile-img {
-                width: 80px;
-                height: 80px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.2rem;
-            }
-
-            p {
-                font-size: 0.9rem;
-            }
-
-            ul {
-                margin-left: 1.5rem;
-            }
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="center">
             <img src="profile.jpg" alt="Your Photo" class="profile-img">
-            <h1>我是境穆 I’m Vincent Frontier</h1>
-            <p>這裡是我的個人頁面，以下有我的自我介紹哦！</p>
-            <p>This is my personal webpage with self-introduction down below!</p>
+            <h1>我是境穆　I’m Vincent Frontier</h1>
+            <p>這裡是我的個人頁面，以下有我的自我介紹哦！<br>
+            This is my personal webpage with self-introduction down below!</p>
 
             <div class="social-buttons">
                 <a href="https://www.facebook.com/vincentfront1er" target="_blank">Facebook</a>
-                <a href="https://twitter.com" target="_blank">Twitter</a>
-                <a href="https://bsky.app" target="_blank">Bluesky</a>
+                <a href="https://x.com/vincentfront1er?s=21" target="_blank">Twitter</a>
+                <a href="https://bsky.app/profile/vincentfrontier.sbs" target="_blank">Bluesky</a>
             </div>
         </div>
 
         <div class="divider"></div>
 
-        <h2>About Me</h2>
-        <p>Write a short introduction about yourself. You can include your background, passions, and what you do.</p>
+        <h2 id="about-me">關於設定</h2>
+        <p>境穆的毛色以深紺色和白色為主，耳朵跟手是栗色，眼睛則是湖水綠，然後是一隻邊境牧羊犬喔！雖然職業是偵探，但很常不務正業，跑去別人家串門子
+        </p>
+        
+        
 
         <h2>Skills</h2>
         <ul>
@@ -232,32 +127,10 @@
             <li><a href="#">Project 3</a>: Brief description of the project.</li>
         </ul>
 
-        <h2>Futuristic Card</h2>
-        <label>
-            <input type="checkbox" id="toggleVisibility" checked>
-            顯示卡片
-        </label>
-
-        <div class="card" id="sciFiCard">
-            <div class="card-content">
-                <div class="card-title">Title</div>
-                <div class="card-description">The best things in life are actually really expensive.</div>
-            </div>
-        </div>
 
         <h2>Contact</h2>
         <p>Feel free to reach out via email: <a href="mailto:vf@vincentfrontier.sbs">vf@vincentfrontier.sbs</a></p>
     </div>
 
-    <script>
-        document.getElementById('toggleVisibility').addEventListener('change', function () {
-            const card = document.getElementById('sciFiCard');
-            if (this.checked) {
-                card.classList.remove('hidden');
-            } else {
-                card.classList.add('hidden');
-            }
-        });
-    </script>
 </body>
 </html>
