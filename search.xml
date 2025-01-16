@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>自我介紹</title>
+      <link href="/2025/01/16/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/"/>
+      <url>/2025/01/16/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本資料"><a href="#基本資料" class="headerlink" title="基本資料"></a>基本資料</h2><p>雲林人，目前已在台北動物園附設國立大學大學部求學 4 年，和碩班 1 年半ㄌ，接下來也會繼續在這邊待上一陣子唸研究所<br>現年 23 歲，獸齡 2 年</p><h2 id="關於設定"><a href="#關於設定" class="headerlink" title="關於設定"></a>關於設定</h2><p>境穆的毛色以深紺色和白色為主，耳朵跟手是栗色，眼睛則是湖水綠，然後是一隻邊境牧羊犬喔！雖然職業是偵探，但很常不務正業，跑去別人家串門子</p><h2 id="基本資料-1"><a href="#基本資料-1" class="headerlink" title="基本資料"></a>基本資料</h2><ul><li>大學就讀外交學系，畢業後目前在本系讀外交所，並同時準備外交特考，希望最後征服宇宙 ùwú</li><li>雖然曾經碰過一年德文，但已經是曾經ㄌ，然後大四三心二意地跑去修法文跟西文…可能只是單純覺得學外文跟了解外國文化很好玩ㄅ有機會也想學學看俄文，但首先要先學會發出彈舌音（rr…r…</li><li>過去曾在辯論圈打混摸魚尸位素餐，但有吸收到一點天地精華（？），也有拿到幾個獎項跟最佳辯士醬</li></ul><h2 id="興趣愛好"><a href="#興趣愛好" class="headerlink" title="興趣愛好"></a>興趣愛好</h2><ol><li>ㄘ好吃的跟喝酒（可能無法千杯不醉，但可以試試看</li><li>電玩遊戲（雖然主要只玩過 TF2 跟 AOE 4，但來，都來</li><li>貓和犬（擼</li><li>交朋朋（大家都是捧油！</li></ol><h2 id="我的雷點"><a href="#我的雷點" class="headerlink" title="我的雷點"></a>我的雷點</h2><p>其實還好，只要大家都是正常人，就沒問題ㄌ XDD</p><h2 id="我可能會雷到你的地方"><a href="#我可能會雷到你的地方" class="headerlink" title="我可能會雷到你的地方"></a>我可能會雷到你的地方</h2><ol><li>訊息可能會回一大串，造成你的視力衰退（？</li><li>有時會蹦出一些正式詞彙（ㄅ歉我不是故意的，只是過去經驗使然，直覺就想到這些</li><li>不太常發文（但我還活著ㄛ</li></ol><h2 id="活躍平台"><a href="#活躍平台" class="headerlink" title="活躍平台"></a>活躍平台</h2><p>最常使用 ←——→ 偶爾才用<br>Facebook &#x3D; Telegram, Discord, Steam, Twitter (X), Instagram</p><h2 id="認識我你將獲得"><a href="#認識我你將獲得" class="headerlink" title="認識我你將獲得"></a>認識我你將獲得</h2><ul><li>呃…國際關係小知識？</li><li>可能潛在說不定有機率的幹話與 <del>Social Credits</del></li></ul><blockquote><p><strong>如果能和大家交上朋友那就太好了！</strong></p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自我介紹 self-intro </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/01/16/hello-world/"/>
+      <url>/2025/01/16/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
