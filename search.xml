@@ -8,7 +8,7 @@
       <link href="/2025/04/01/1ntr0/"/>
       <url>/2025/04/01/1ntr0/</url>
       
-        <content type="html"><![CDATA[<p><strong>RICKROLL!!</strong></p>]]></content>
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="zh-tw">    <head>        <meta charset="UTF-8">        <title>愚人節快樂！</title>        <script>            // Set timeout for redirection (5000ms = 5 seconds)            setTimeout(function() {                window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=jFCfkF9nMT1KayDO";            }, 2000); // Adjust time in milliseconds as needed        </script>    </head>    <body>        <h1>現在要傳送你到酷酷地方</h1>        <p>RICKROLLING……</p>    </body></html>]]></content>
       
       
       
